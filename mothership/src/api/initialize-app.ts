@@ -25,7 +25,7 @@ const customLogFormat = (tokens: any, req: Request, res: Response) => {
     ui_app_name: req.get('AppName'),
     ui_app_version: req.get('AppVersion'),
     ui_app_platform: req.get('AppPlatform'),
-  }
+  };
 
   return JSON.stringify(logObj);
 };
