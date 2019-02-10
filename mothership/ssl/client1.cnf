@@ -8,8 +8,8 @@ x509_extensions        = v3_ca
 
 [ req_distinguished_name ]
 C                      = US
-ST                     = MA
-L                      = Boston
+ST                     = MI
+L                      = Allendale
 O                      = Example Co
 OU                     = techops
 CN                     = client1
